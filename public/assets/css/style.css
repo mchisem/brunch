@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: palevioletred;
+}
+
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+/* @media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+} */
+
+/* navbar */
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+ .navbar:not(.top-nav-collapse) {
+  background: #78909c !important;
+ }
+}
+
+h1 {
+  letter-spacing: 8px;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
+
+#page-intro {
+    background-image: url('./assets/images/networking-group-pic.JPG'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center;
+}
+
+b, strong {
+    font-weight: bolder;
+    color: white;
+}
+
+/* about */
+#about {
+    max-width: 100%;
+    background-image: url("https://mdbootstrap.com/img/Photos/Others/background.jpg");
+}
+
+/* Video */
+#video-container {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mask.flex-center.rgba-black-light {
+    padding: 0;
+    margin: 0;
+}
+
+/* bb of the month */
+#bb-of-the-month {
+    max-width: 100%;
+    background-color: black;
+    margin: 0;
+}
+
+/*  */
+#call-to-action,
+#social-media {
+    max-width: 100%;
+}
+
+/* Subscribe */
+#subscribe {
+    background-color: black;
+    width: 100%;
+}
+
+#sign-up-btn {
+    background-color: palevioletred;
+}
+
+.input-grey .form-control {
+    border-radius: .125rem;
+  }
+  
+.form-control:focus {
+    background-color: rgba(255,255,255,.3);
+}
+
+.input-grey input::placeholder {
+    color: #fff;
+}
