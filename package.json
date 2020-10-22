@@ -1,0 +1,22 @@
+{
+  "name": "brunch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mchisem/brunch.git"
+  },
+  "author": "Maya Chisem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mchisem/brunch/issues"
+  },
+  "homepage": "https://github.com/mchisem/brunch#readme",
+  "dependencies": {
+    "mdbootstrap": "^4.19.1"
+  }
+}
