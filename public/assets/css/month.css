@@ -1,0 +1,77 @@
+html,
+body {
+    background-color: white;
+}
+
+/* navbar */
+.navbar {
+    position: relative;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent;
+}
+
+.navbar-dark .navbar-brand {
+    color: black;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+
+/* jumbotron */
+.jumbotron {
+    padding: 2rem 1rem;
+    /* margin-bottom: 2rem; */
+    margin-bottom: 0rem;
+    background-color: #e9ecef;
+    /* border-radius: .3rem; */
+    border: none;
+    border-radius: 0px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-radius: 0px;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    /* border-radius: .25rem; */
+}
+
+/* bbbbb */
+#bb-article {
+    background-color: black;
+    max-width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mt-5, .my-5 {
+    /* margin-top: 3rem!important; */
+    margin-top: 0rem!important;
+}
+
+/* .col-md-5.mb-4.mb-md-0 {
+    padding-left: 50px;
+} */
+
+/* contact */
+#contact-form,
+#contact {
+    max-width: 100%;
+}
