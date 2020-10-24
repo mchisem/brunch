@@ -1,0 +1,13 @@
+html,
+body {
+    background-color: white;
+}
+
+.navbar {
+    position: relative;
+    background-color: black !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: black !important;
+}

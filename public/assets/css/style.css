@@ -16,15 +16,6 @@ header,
   height: 100%;
 }
 
-/* @media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 100vh;
-  }
-} */
-
 /* navbar */
 .navbar {
     position: fixed;
@@ -38,6 +29,7 @@ header,
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: .5rem 1rem;
+    z-index: 999;
 }
 
 .top-nav-collapse {

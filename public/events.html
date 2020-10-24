@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+
+    <!-- MDB Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- My Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/events.css">
+</head>
+<body>
+    <!------------------------------------------>
+    <!--Navbar-->
+    <!------------------------------------------>
+    <nav class="navbar navbar-expand-lg navbar-dark indigo" id="navbar">
+
+        <div class="container">
+        
+            <a class="navbar-brand py-0" href="./index.html">
+            <!-- <i class="fab fa-3x">BBB</i>     -->
+            BBB
+            </a>
+        
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+        
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto text-uppercase">
+                <li class="nav-item active">
+                <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link font-weight-normal" href="./month.html">Features</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <!-- Links -->
+            
+            <ul class="nav navbar-nav nav-flex-icons ml-auto">
+                <li class="nav-item"><a href="" class="nav-link waves-effect"><span class="badge red z-depth-1 mr-1"> 2 </span><i id="navbar-static-cart" alt="Cart" class="fas fa-shopping-cart"></i><span class="sr-only"> Cart </span></a></li>
+        
+                <li class="nav-item d-none d-xl-inline-block" alt="Support" id="navbar-static-support">
+                <a href="" class="nav-link waves-effect">
+                <i class="fas fa-question-circle"></i><span class="d-none d-xl-inline-block ml-1">Support</span>
+                </a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false"><i class="fas fa-wrench"></i><span class="d-none d-xl-inline-block ml-1">Tools</span></a>
+                <div class="dropdown-menu dropdown-primary dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+                </li>
+            </ul>
+        
+            </div>
+            <!-- Collapsible content -->
+        
+        </div>
+        
+    </nav>
+
+    <!------------------------------------------>
+    <!--Counter-->
+    <!------------------------------------------>
+    <div class="container my-5">
+
+
+        <!--Section: Content-->
+        <section class="p-5 z-depth-1">
+          
+          <h3 class="text-center font-weight-bold mb-5">Countdown until next brunch</h3>
+      
+          <div class="row d-flex justify-content-center">
+      
+            <div class="col-md-6 col-lg-3 mb-4 text-center">
+              <h4 class="h1 font-weight-normal mb-3">
+                <i class="fas fa-file-alt indigo-text"></i>
+                <span class="d-inline-block count-up" data-from="0" data-to="100" data-time="2000">100</span>
+              </h4>
+              <p class="font-weight-normal text-muted">Unique Page</p>
+            </div>
+      
+            <div class="col-md-6 col-lg-3 mb-4 text-center">
+              <h4 class="h1 font-weight-normal mb-3">
+                <i class="fas fa-layer-group indigo-text"></i>
+                <span class="d-inline-block count1" data-from="0" data-to="250" data-time="2000">250</span>
+              </h4>
+              <p class="font-weight-normal text-muted">Block Variety</p>
+            </div>
+      
+            <div class="col-md-6 col-lg-3 mb-4 text-center">
+              <h4 class="h1 font-weight-normal mb-3">
+                <i class="fas fa-pencil-ruler indigo-text"></i>
+                <span class="d-inline-block count2" data-from="0" data-to="330" data-time="2000">330</span>
+              </h4>
+              <p class="font-weight-normal text-muted">Reusable Component</p>
+            </div>
+            
+            <div class="col-md-6 col-lg-3 mb-4 text-center">
+              <h4 class="h1 font-weight-normal mb-3">
+                <i class="fab fa-react indigo-text"></i>
+                <span class="d-inline-block count3" data-from="0" data-to="430" data-time="2000">430</span>
+              </h4>
+              <p class="font-weight-normal text-muted">Crafted Element</p>
+            </div>
+      
+          </div>
+      
+        </section>
+        <!--Section: Content-->
+      
+      
+    </div>
+
+    <div id="calendar"></div>
+
+
+
+<!-- Font Awesome Stylesheet-->
+<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- js -->
+<script src="./assets/js/events.js"></script>
+</body>
+</html>
