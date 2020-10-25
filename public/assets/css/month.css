@@ -3,13 +3,12 @@ body {
     background-color: white;
 }
 
+/***********************************************/
 /* navbar */
-.navbar {
-    position: relative;
-}
-
+/***********************************************/
 .navbar:not(.top-nav-collapse) {
-    background: transparent;
+    /* background: transparent; */
+    background: white !important;
 }
 
 .navbar-dark .navbar-brand {
@@ -24,9 +23,11 @@ body {
     color: black;
 }
 
+/***********************************************/
 /* jumbotron */
+/***********************************************/
 .jumbotron {
-    padding: 2rem 1rem;
+    padding: 5rem 1rem;
     /* margin-bottom: 2rem; */
     margin-bottom: 0rem;
     background-color: #e9ecef;
@@ -51,14 +52,25 @@ body {
     /* border-radius: .25rem; */
 }
 
+/***********************************************/
 /* bbbbb */
+/***********************************************/
+.bg-primary {
+    background-color: transparent !important;
+}
+
 #bb-article {
-    background-color: black;
     max-width: 100%;
     padding-right: 0px;
     padding-left: 0px;
     margin-right: auto;
     margin-left: auto;
+    /* color: black; */
+}
+
+#bb-article strong {
+    font-weight: bolder;
+    color: black;
 }
 
 .mt-5, .my-5 {
@@ -66,11 +78,30 @@ body {
     margin-top: 0rem!important;
 }
 
-/* .col-md-5.mb-4.mb-md-0 {
-    padding-left: 50px;
-} */
+.mb-5, .my-5 {
+    /* margin-bottom: 3rem!important; */
+    margin-bottom: 0rem!important;
 
+}
+.mt-3, .my-3 {
+    /* margin-top: 1rem!important; */
+    margin-top: 0rem!important;
+}
+
+/***********************************************/
+/* Newsfeed */
+/***********************************************/
+#newsfeed {
+    margin-top: 1rem!important;
+    max-width: 100%;
+    padding: 7%;
+    /* margin-top: 0rem!important; */
+}
+
+
+/***********************************************/
 /* contact */
+/***********************************************/
 #contact-form,
 #contact {
     max-width: 100%;
