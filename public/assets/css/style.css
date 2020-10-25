@@ -16,7 +16,9 @@ header,
   height: 100%;
 }
 
-/* navbar */
+/*****************************************/
+/*              Navbar             */
+/*****************************************/
 .navbar {
     position: fixed;
     width: 100%;
@@ -46,7 +48,9 @@ header,
  }
 }
 
+/*****************************************/
 /*  */
+/*****************************************/
 h1 {
     letter-spacing: 8px;
   }
@@ -77,7 +81,9 @@ b, strong {
     color: white;
 }
 
-/* about */
+/*****************************************/
+/*            about           */
+/*****************************************/
 .mt-5, .my-5 {
     /* margin-top: 3rem!important; */
     margin-top: 0rem !important;
@@ -88,7 +94,9 @@ b, strong {
     background-image: url("https://mdbootstrap.com/img/Photos/Others/background.jpg");
 }
 
-/* Video */
+/*****************************************/
+/*              Video              */
+/*****************************************/
 #video-container {
     width: 100%;
     padding-left: 0px;
@@ -102,27 +110,34 @@ b, strong {
     margin: 0;
 }
 
-/* bb of the month */
+/*****************************************/
+/*         BB of the Month        */
+/*****************************************/
 #bb-of-the-month {
     max-width: 100%;
     background-color: black;
-    margin: 0;
+    margin-bottom: 0rem !important;
 }
 
+/*****************************************/
 /*  */
+/*****************************************/
 #call-to-action,
 #social-media {
     max-width: 100%;
 }
 
-/* Subscribe */
+/*****************************************/
+/*            Subscribe             */
+/*****************************************/
 #subscribe {
-    background-color: black;
+    /* background-color: black; */
     width: 100%;
 }
 
 #sign-up-btn {
-    background-color: palevioletred;
+    background-color: rgb(0, 0, 0);
+    padding: 6px 12px !important;
 }
 
 .input-grey .form-control {
@@ -135,4 +150,16 @@ b, strong {
 
 .input-grey input::placeholder {
     color: #fff;
+}
+
+/*****************************************/
+/*            Footer             */
+/*****************************************/
+footer {
+    background-color: black;
+}
+
+footer h5,
+.footer-copyright.text-center.py-3 {
+    color: white;
 }
